@@ -5,26 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Web</title>
+    <title>Meu Portifolio Web</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+
+        #my-picture {
+            border-radius: 100%;
+
+        }
+
+        .links {
+            color: red;
+            font-family: monospace;
+            text-decoration: none;
+        }
+
+        #list {
+            background-color: darkgray;
+        }
+
+        .sub-title {
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+
+        #indice {
+            background-color: darkgray;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+
+        #main-title {
+            font-size: 70px;
+            line-height: 50px;
+            font-family: sans-serif;
+        }
+
+        .indice {
+            font-style: inherit;
+        }
+
+        #list-habilities {
+            font-family: monospace;
+            font-size: 14px;
+        }
+
+        p {
+            font-family: monospace, sans-serif;
+            font-size: 16px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Matheus Pereira Pinto</h1>
-    <br>
-    <img id="minha foto" src="minha-foto.jpg" alt="minha foto tirada de frente do espelho" width="500px">
-    <br>
-    <h2 id="sobre mim">Sobre Mim</h2>
-    <p>Meu nome é <a href="#minha foto"><strong>Matheus</strong></a>, tenho 21 anos, nasci em 6 de fevereiro de 2001,em
+    <hr>
+    <h1 id="main-title">Meu Portifólio Web</h1>
+    <hr>
+    <h2 class="sub-title" id="sobre-mim">Sobre Mim</h2>
+    <p>Meu nome é <a class="links" href="#minha-foto"><strong class="links">Matheus</strong></a>, tenho 21 anos, nasci
+        em 6 de
+        fevereiro de 2001,em
         Belo Horizonte,
         Minas Gerais, Brasil, mas
         atualmente moro na cidade de Curvelo-MG, que fica a 165 km de Belo Horizonte.</p>
     <br>
+    <img id="my-picture" src="minha-foto.jpg" alt="minha foto tirada de frente do espelho" width="500px">
     <br>
-    <h2 id="minhas habilidades">Minhas Habilidades</h2>
-    <p>Atualmente estou cursando na <a href="https://www.betrybe.com/" target="_blank"><strong>Trybe</strong></a>, e
+    <br>
+    <p>Atualmente estou cursando na <a class="links" href="https://www.betrybe.com/"
+            target="_blank"><strong>Trybe</strong></a>, e
         já possuo conhecimento em:</p>
     <br>
-    <ul>
+    <ul id="list-habilities">
         <li>Unix</li>
         <br>
         <li>Bash</li>
@@ -32,15 +86,20 @@
         <li>Git</li>
         <br>
         <li>GitHub</li>
+        <br>
+        <li>HTML</li>
+        <br>
+        <li>CSS</li>
     </ul>
     <br>
     <br>
     <br>
-    <h3><em>Indice</em></h3>
+    <hr>
+    <h3 id="indice"><em>Indice</em></h3>
     <ul>
-        <li><em><a href="#minha foto">Minha Foto</a></em></li>
-        <li><em><a href="#sobre mim">Sobre Mim</a></em></li>
-        <li><em><a href="#minhas habilidades">Minhas Habilidades</a></em></li>
+        <li><em><a class="links indice" href="#my-picture"> <strong>Minha Foto</strong></a></em></li>
+        <li><em><a class="links indice" href="#sobre-mim"><strong>Sobre Mim</strong></a></em></li>
+        <li><em><a class="links indice" href="#list-habilities"><strong>Meus Conhecimentos</strong></a></em></li>
     </ul>
 </body>
 
