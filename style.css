@@ -1,9 +1,13 @@
+h1,h2,h3,h4,ul,p{
+    color: black;
+}p{text-align: center;}
 body {
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
 }
 
 #my-picture {
     border-radius: 100%;
+    
 
 }
 
@@ -25,7 +29,7 @@ body {
 }
 
 #indice {
-    background-color: rgb(124, 124, 124);
+    background-color: red;
     font-size: 30px;
     font-family:'Raleway', sans-serif;
     font-style: italic
@@ -35,6 +39,9 @@ body {
     font-size: 70px;
     line-height: 50px;
     font-family:'Raleway',sans-serif;    
+    background-color: red;
+    padding: 50px;
+    margin: 0px;
 }
 
 .indice {
